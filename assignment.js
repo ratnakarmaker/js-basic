@@ -1,12 +1,12 @@
+// https://github.com/ratnakarmaker/js-basic
 
 // number-1
-function kilometerToMeter(kilometer){
+function kilometerToMeter(kilometer){   
     var meter = kilometer * 1000;
     return meter;
     
 }
-var output = kilometerToMeter(5);
-console.log(output);
+
 
 // number-2
 function budgetCalculator(watch, mobile, laptop){
@@ -17,8 +17,7 @@ function budgetCalculator(watch, mobile, laptop){
     return totalBuget;
 }
 
-var buget = budgetCalculator(1, 1, 1);
-console.log(buget);
+
 
 // number-3
 function hotelCost(days){
@@ -40,8 +39,7 @@ function hotelCost(days){
     }
     return totalCost;
 }
-var package = hotelCost(25);
-console.log(package);
+
 
 // number-4
 function megaFriend(array){
@@ -55,6 +53,5 @@ function megaFriend(array){
   
     return longestWord;
 }
-var print = megaFriend(['ratna', 'rotna', 'rani', 'jk']);
-console.log(print);
+
 
