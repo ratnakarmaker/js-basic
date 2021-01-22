@@ -18,7 +18,6 @@ function budgetCalculator(watch, mobile, laptop){
 }
 
 
-
 // number-3
 function hotelCost(days){
     if(days <= 10){
@@ -28,17 +27,19 @@ function hotelCost(days){
         var firstPackage = 10 * 100;
         var remainingDays = days - 10;
         var secondPackage = remainingDays * 80; 
-        totalCost = firstPackage + secondPackage;
+        var totalCost = firstPackage + secondPackage;
     }
     else{
          var firstPackage = 10 * 100;
-         var secondPackage = 20 * 80;
+         var secondPackage = 10 * 80;
          var remainingDays = days - 20;
          var thirdPackage = remainingDays * 50;
-         totalCost = firstPackage + secondPackage + thirdPackage; 
+         var totalCost = firstPackage + secondPackage + thirdPackage; 
     }
     return totalCost;
 }
+var cost = hotelCost(25);
+console.log(cost);
 
 
 // number-4
@@ -53,5 +54,3 @@ function megaFriend(array){
   
     return longestWord;
 }
-
-
