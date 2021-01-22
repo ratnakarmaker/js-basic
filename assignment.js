@@ -38,8 +38,6 @@ function hotelCost(days){
     }
     return totalCost;
 }
-var cost = hotelCost(25);
-console.log(cost);
 
 
 // number-4
